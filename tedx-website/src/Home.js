@@ -47,7 +47,7 @@ function Home() {
       <NavbarDesktop />
       <NavbarMobile />
       <HeroSection />
-      {hideMenu&&       <NavbarMenu/>}
+      {hideMenu&&      <NavbarMenu/>}
       <ThemeSection />
       <TrailerSection />
       <BannerSection />
