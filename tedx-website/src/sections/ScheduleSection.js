@@ -22,7 +22,7 @@ function ScheduleSection() {
             </div>
            
             
-            <div className="container">
+            <div className="xl:mx-4">
             <div className="columns">
                 <div className="column"
                 data-aos="fade-up"

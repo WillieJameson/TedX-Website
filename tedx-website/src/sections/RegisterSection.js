@@ -28,7 +28,7 @@ function RegisterSection() {
     }
     return (
         <Element name="register" className="section" style={{marginBottom: "50px"}}>
-            <div className="container">
+            <div className="xl:mx-8">
                 <div style={{marginTop: '25px'}}
                     data-aos="fade-in"
                     data-aos-offset="0"
