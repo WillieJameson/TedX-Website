@@ -25,7 +25,7 @@ export default function HeroSection() {
         </div>
         
       </div>
-      <HomeParticle/>
+      {/* <HomeParticle/> */}
     </div>
   );
 }

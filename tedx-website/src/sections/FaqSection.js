@@ -5,7 +5,7 @@ import { Element } from "react-scroll";
 function FaqSection() {
     return (
     <Element name="faq" className="section lg:mx-10">
-<div className="container is-widescreen">
+<div className="xl:mx-2 is-widescreen">
   <div className="columns  is-centered-mobile is-vcentered">
     <div className="column is-12 is-10-mobile is-offset-1-mobile has-text-centered"
                   data-aos="fade-right"

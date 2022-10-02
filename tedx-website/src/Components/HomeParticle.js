@@ -15,13 +15,15 @@ const HomeParticle = () => {
       await console.log(container);
       
   }, []);
+  
   return (
     <Particles 
-    // className="particle"
+    id="tsparticles"
     init={particlesInit}
     loaded={particlesLoaded}
     height="100px"
-    id="tsparticles"
+    width="200px"
+    className="particle"
     options={{
       "particles": {
         "number": {
