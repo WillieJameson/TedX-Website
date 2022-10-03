@@ -88,7 +88,7 @@ const Add = () => {
           autoComplete="off"
         />
       </div>
-      <p className="font-archivo lg:text-lg py-3 text-sm">
+      <p className="font-archivo lg:text-lg py-3 text-sm font-bold">
       Note: <br />After you have pressed the SUBMIT button, your site will reload. But, worry not, your data will still go through. More details will be sent via email 1 day prior to our event.
       </p>
       <div className=" text-center">

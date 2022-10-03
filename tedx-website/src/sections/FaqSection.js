@@ -1,6 +1,7 @@
 import React from 'react'
 import FaqCard from '../Components/FaqCard'
 import { Element } from "react-scroll";
+import {FaFacebookSquare,FaInstagramSquare ,FaTwitterSquare ,FaEnvelopeSquare} from "react-icons/fa"
 
 function FaqSection() {
     return (
@@ -39,27 +40,33 @@ function FaqSection() {
         <b>How do I keep myself updated?</b>
       </h1>
       <p >Follow us on these platforms :
-      <br/>
-      <span className="fas fa-2x">
-        <a href="https://www.facebook.com/TEDxYouth-SmakOne-106981974406656/">
-          <i className="fab fa-facebook-square has-text-white px-2"></i>
-        </a>
-      </span>
-      <span className="fas fa-2x">
-        <a href="http://www.instagram.com/tedxyouthsmakone/">
-          <i className="fab fa-instagram-square has-text-white px-2"></i>
-        </a>
-      </span>
-      <span className="fas fa-2x">
-        <a href="https://twitter.com/TEDxYouthSmak1">
-          <i className="fab fa-twitter-square has-text-white px-2"></i>
-        </a>
-      </span>
-      <span className="fas fa-2x">
-          <a href="mailto:tedxyouthsmakone@gmail.com">
-            <i class="fas fa-envelope-square has-text-white px-2"></i>
+      <br/> 
+      <div className='flex justify-center gap-3 mt-2'>
+        <span className="fas fa-2x">
+          <a target="blank" href="https://www.facebook.com/TEDxYouth-SmakOne-106981974406656/">
+            <FaFacebookSquare size="2em" value={{className:"has-text-white px-2"}}/>
+            {/* <i className="fab fa-facebook-square "></i> */}
           </a>
-      </span>
+        </span>
+        <span className="fas fa-2x">
+          <a target="blank" href="http://www.instagram.com/tedxyouthsmakone/">
+            {/* <i className="fab fa-instagram-square "></i> */}
+            <FaInstagramSquare size="2em" value={{className:"has-text-white px-2"}}/>
+          </a>
+        </span>
+        <span className="fas fa-2x">
+          <a target="blank" href="https://twitter.com/TEDxYouthSmak1">
+            {/* <i className="fab fa-twitter-square "></i> */}
+            <FaTwitterSquare size="2em" value={{className:"has-text-white px-2"}}/>
+          </a>
+        </span>
+        <span className="fas fa-2x">
+            <a target="blank" href="mailto:tedxyouthsmakone@gmail.com">
+              {/* <i class="fas fa-envelope-square "></i> */}
+              <FaEnvelopeSquare size="2em" value={{className:"has-text-white px-2"}}/>
+            </a>
+        </span>
+      </div>
       </p>
     </div>
   </div>
