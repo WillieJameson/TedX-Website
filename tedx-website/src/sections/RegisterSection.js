@@ -28,7 +28,7 @@ function RegisterSection() {
     }
     return (
         <Element name="register" className="section" style={{marginBottom: "50px"}}>
-            <div className="xl:mx-8">
+            <div className="xl:mx-8 flex align-middle justify-center">
                 <div style={{marginTop: '25px'}}
                     data-aos="fade-in"
                     data-aos-offset="0"
@@ -38,11 +38,16 @@ function RegisterSection() {
                     data-aos-once="true"
                     data-aos-anchor-placement="top-center" 
                     className="columns">
-                    <div className="column">
-                        <h1 className="section-title has-text-centered is-size-1-mobile">REGISTER</h1>
+                    <div className="colum">
+                        {/* <h1 className="section-title has-text-centered is-size-1-mobile">REGISTER</h1> */}
+                        <button className='text-center  text-4xl lg:text-5xl font-bold bg-white  p-3  hover:text-gray-100 rounded-2xl'>
+                            <a href='https://tickets.smakone.org/' target="blank" className='text-red-700 '>
+                                Register
+                            </a>
+                        </button>
                     </div>
                 </div>
-                    
+{/*                     
                 {
                 filled?
                     (<div className="columns has-text-centered">
@@ -57,7 +62,7 @@ function RegisterSection() {
                 }
 
                 
-
+ */}
 
             </div>
         </Element>

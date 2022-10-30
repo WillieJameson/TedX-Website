@@ -13,7 +13,7 @@ function ThemeSection() {
       className="section is-medium"
     >
       <div className="container is-widescreen lg:pt-44 pt-36">
-        <div className="absolute opacity-20 transform lg:scale-150 scale-100 mx-auto right-0 left-0">
+        <div className="absolute opacity-20 transform lg:scale-150 scale-100">
           <img src={pi} className="mx-auto" alt="mathematical_pi"></img>
         </div>
         <div className="columns is-centered is-vcentered pb-7 -mt-20 lg:-mt-0">
@@ -27,7 +27,7 @@ function ThemeSection() {
           data-aos-once="true"
           data-aos-anchor-placement="top-center"
         >
-          GAME OF PI
+          L∞K UP
         </h1>
         </div>
         <div className="columns is-vcentered z-10">
@@ -42,7 +42,7 @@ function ThemeSection() {
             data-aos-anchor-placement="top-center"
           >
             <p className="lg:pt-3 text-lg lg:text-2xl lg:text-center mx-5 text-justify">
-            Similar to life, not all things are solvable. There are endless challenges and opportunities for each being in this world which represents a level or stage in a game. Some might see pi only as 3.14, but the others might see it as an infinite plus some. Life cannot be defined just by mere numbers or theories, but it leaves us with many kinds of mysteries and uniqueness.
+            L∞K UP! Can be interpreted as the microsoft excel formula of the same name, LOOKUP, which function is to search for and retrieve data from one place to another. Combined with the infinity symbol replacing both letter Os, L∞K UP! Serves as an analogy that you have the ability and capability to search for and ‘retrieve’ your own life answers among an infinite number of options. L∞K UP! can also be interpreted as a command to keep your head up towards the vast sky, where possibilities and answers are infinite.
             </p>
           </div>
         </div>

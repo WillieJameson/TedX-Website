@@ -27,10 +27,10 @@ const HomeParticle = () => {
       className="particle"
       options={{
         fullScreen: { enable: false },
-        fpsLimit: 60,
+        fpsLimit: 120,
         "particles": {
           "number": {
-            "value": 80,
+            "value": 70,
             "density": {
               "enable": true,
               "value_area": 800
@@ -59,7 +59,7 @@ const HomeParticle = () => {
             "random": false,
             "anim": {
               "enable": false,
-              "speed": 1,
+              "speed": 2,
               "opacity_min": 0.1,
               "sync": false
             }
@@ -70,7 +70,7 @@ const HomeParticle = () => {
             "random": true,
             "anim": {
               "enable": false,
-              "speed": 40,
+              "speed": 10,
               "size_min": 0.1,
               "sync": false
             }
@@ -84,7 +84,7 @@ const HomeParticle = () => {
           },
           "move": {
             "enable": true,
-            "speed": 6,
+            "speed": 3,
             "direction": "none",
             "random": false,
             "straight": false,

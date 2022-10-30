@@ -92,7 +92,7 @@ const Add = () => {
       Note: <br />After you have pressed the SUBMIT button, your site will reload. But, worry not, your data will still go through. More details will be sent via email 1 day prior to our event.
       </p>
       <div className=" text-center">
-        <button className=" text-center rounded-lg border-2 border-red-500 w-20 py-1 hover:bg-red-500 text-red-500 font-semibold hover:text-white mt-5 font-archivo">Submit</button>
+        <button className=" text-center rounded-lg border-2 border-red-500 w-20 py-1 hover:bg-red-500 text-red-500 font-semibold hover:text-gray-500 mt-5 font-archivo">Submit</button>
         </div>
     </form>
   );
