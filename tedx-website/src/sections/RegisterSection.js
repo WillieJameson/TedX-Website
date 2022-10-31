@@ -29,7 +29,7 @@ function RegisterSection() {
     return (
         <Element name="register" className="section" style={{marginBottom: "50px"}}>
             <div className="xl:mx-8 flex align-middle justify-center">
-                <div style={{marginTop: '25px'}}
+                {/* <div style={{marginTop: '25px'}}
                     data-aos="fade-in"
                     data-aos-offset="0"
                     data-aos-delay="0"
@@ -37,7 +37,7 @@ function RegisterSection() {
                     data-aos-mirror="true"
                     data-aos-once="true"
                     data-aos-anchor-placement="top-center" 
-                    className="columns">
+                    className="columns"> */}
                     <div className="colum">
                         {/* <h1 className="section-title has-text-centered is-size-1-mobile">REGISTER</h1> */}
                         <button className='text-center  text-4xl lg:text-5xl font-bold bg-white  p-3  hover:text-gray-100 rounded-2xl'>
@@ -46,7 +46,7 @@ function RegisterSection() {
                             </a>
                         </button>
                     </div>
-                </div>
+                {/* </div> */}
 {/*                     
                 {
                 filled?

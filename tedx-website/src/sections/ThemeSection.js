@@ -2,7 +2,7 @@ import React from "react";
 import EventLogo from "../images/event2.png";
 import { Element } from "react-scroll";
 import NavbarMenu from "../Components/NavbarMenu";
-import pi from "../images/2021/pi.png";
+import Infinite from "../images/2022/Infinite.png";
 
 
 
@@ -13,8 +13,8 @@ function ThemeSection() {
       className="section is-medium"
     >
       <div className="container is-widescreen lg:pt-44 pt-36">
-        <div className="absolute opacity-20 transform lg:scale-150 scale-100">
-          <img src={pi} className="mx-auto" alt="mathematical_pi"></img>
+        <div className="absolute opacity-30 mx-auto right-0 left-0 text-center transform lg:scale-150 scale-100 ">
+          <img src={Infinite} className="-z-10 mx-auto" alt="infinite"></img>
         </div>
         <div className="columns is-centered is-vcentered pb-7 -mt-20 lg:-mt-0">
         <h1
