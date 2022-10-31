@@ -1,6 +1,7 @@
 import React from "react";
 import YouTube from "react-youtube";
 import { Element } from "react-scroll";
+import Trailer from '../images/TrailerTEDX.mp4'
 
 function TrailerSection() {
   const opts = {
@@ -39,7 +40,17 @@ function TrailerSection() {
               data-aos-once="true"
               data-aos-anchor-placement="top-center"
             >
-              <YouTube videoId="RFJUBAfI2xc" opts={opts} className="mt-3" />
+              {/* <YouTube videoId="RFJUBAfI2xc" opts={opts} className="mt-3" /> */}
+              {/* <Video width="320" height="240" controls>
+                  <source src={Trailer}>
+                </Video> */}
+                <div className="bg-white">
+                <video src={Trailer}>
+                  {/* adadasdsa
+                    <source  src={Trailer} type="video/mp4" />
+                    Sorry, your browser doesn't support videos. */}
+                </video>
+                </div>
             </div>
           </div>
         </div>

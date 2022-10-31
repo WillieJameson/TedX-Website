@@ -5,7 +5,9 @@ export default function Card(props) {
     <div className="column">
       <div className="">
         <div className="">
-          <figure>{props.genne}</figure>
+          <figure className="">
+            {props.genne}
+          </figure>
         </div>
         <div className="card-content bg-grey card-height">
           <div className="media">

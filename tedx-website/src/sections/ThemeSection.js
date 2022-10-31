@@ -2,7 +2,7 @@ import React from "react";
 import EventLogo from "../images/event2.png";
 import { Element } from "react-scroll";
 import NavbarMenu from "../Components/NavbarMenu";
-import pi from "../images/pi.png";
+import pi from "../images/2021/pi.png";
 
 
 
