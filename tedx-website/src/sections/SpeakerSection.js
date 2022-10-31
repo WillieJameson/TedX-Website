@@ -4,14 +4,14 @@ import SpeakerCard from "../Components/SpeakerCard";
 import { Element } from "react-scroll";
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/splide/dist/css/splide.min.css';
-import Angelo from "../images/2022/Angelo.png";
-import Eunike from "../images/2022/Eunike.png";
-import Gabriella  from "../images/2022/Gabriella.png";
-import Gabriella_Tan from "../images/2022/Gabriella_Tan.png";
-import Gerald  from "../images/2022/Gerald.png";
-import Grace from "../images/2022/Grace.png";
-import Ibrahim from "../images/2022/ibrahim.png";
-import Karlina from "../images/2022/Karlina.png";
+import Angelo from "../images/2022/Angelo.webp";
+import Eunike from "../images/2022/Eunike.webp";
+import Gabriella  from "../images/2022/Gabriella.webp";
+import Gabriella_Tan from "../images/2022/Gabriella_Tan.webp";
+import Gerald  from "../images/2022/Gerald.webp";
+import Grace from "../images/2022/Grace.webp";
+import Ibrahim from "../images/2022/ibrahim.webp";
+import Karlina from "../images/2022/Karlina.webp";
 
 
 
