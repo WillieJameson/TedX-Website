@@ -48,25 +48,25 @@ export default function Footer() {
             <span className="fas fa-2x">
                 <a href="https://twitter.com/TEDxYouthSmak1">
                   {/* <i className="fab fa-twitter-square has-text-white px-2"></i> */}
-                  <FaTwitterSquare size="2em" value={{className:"has-text-white px-2"}}/>
+                  <FaTwitterSquare size="1em" value={{className:"has-text-white px-2"}}/>
                 </a>
             </span>
             <span className="fas fa-2x">
               <a href="http://www.instagram.com/tedxyouthsmakone/">
                 {/* <i className="fab fa-instagram-square has-text-white px-2"></i> */}
-                <FaInstagramSquare size="2em" value={{className:"has-text-white px-2"}}/>
+                <FaInstagramSquare size="1em" value={{className:"has-text-white px-2"}}/>
               </a>
             </span>
             <span className="fas fa-2x">
               <a href="https://www.facebook.com/TEDxYouth-SmakOne-106981974406656/">
                 {/* <i className="fab fa-facebook-square has-text-white px-2"></i> */}
-                <FaFacebookSquare size="2em" value={{className:"has-text-white px-2"}}/>
+                <FaFacebookSquare size="1em" value={{className:"has-text-white px-2"}}/>
               </a>
             </span>
             <span className="fas fa-2x">
                 <a href="mailto:tedxyouthsmakone@gmail.com">
                   {/* <i class="fas fa-envelope-square has-text-white px-2"></i> */}
-                  <FaEnvelopeSquare size="2em" value={{className:"has-text-white px-2"}}/>
+                  <FaEnvelopeSquare size="1em" value={{className:"has-text-white px-2"}}/>
                 </a>
             </span>
           </div>

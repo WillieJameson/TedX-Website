@@ -39,26 +39,26 @@ function FaqSection() {
       <div className='flex justify-center gap-3 mt-2'>
         <span className="fas fa-2x">
           <a target="blank" href="https://www.facebook.com/TEDxYouth-SmakOne-106981974406656/">
-            <FaFacebookSquare size="2em" value={{className:"has-text-white px-2"}}/>
+            <FaFacebookSquare size="1em" value={{className:"has-text-white px-2"}}/>
             {/* <i className="fab fa-facebook-square "></i> */}
           </a>
         </span>
         <span className="fas fa-2x">
           <a target="blank" href="http://www.instagram.com/tedxyouthsmakone/">
             {/* <i className="fab fa-instagram-square "></i> */}
-            <FaInstagramSquare size="2em" value={{className:"has-text-white px-2"}}/>
+            <FaInstagramSquare size="1em" value={{className:"has-text-white px-2"}}/>
           </a>
         </span>
         <span className="fas fa-2x">
           <a target="blank" href="https://twitter.com/TEDxYouthSmak1">
             {/* <i className="fab fa-twitter-square "></i> */}
-            <FaTwitterSquare size="2em" value={{className:"has-text-white px-2"}}/>
+            <FaTwitterSquare size="1em" value={{className:"has-text-white px-2"}}/>
           </a>
         </span>
         <span className="fas fa-2x">
             <a target="blank" href="mailto:tedxyouthsmakone@gmail.com">
               {/* <i class="fas fa-envelope-square "></i> */}
-              <FaEnvelopeSquare size="2em" value={{className:"has-text-white px-2"}}/>
+              <FaEnvelopeSquare size="1em" value={{className:"has-text-white px-2"}}/>
             </a>
         </span>
       </div>
