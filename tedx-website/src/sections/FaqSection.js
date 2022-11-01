@@ -23,19 +23,14 @@ function FaqSection() {
         <b>When and Where</b>
       </h1>
       <p>
-      The event will be held on November 13th 2021, 09.00 - 15.10 WIB, using the Webinar Zoom. The link will be sent to your email address and you will be directed to the Zoom Meetings automatically.
+      The event will be held on November 12th, 09.00 - 12.00, at SMAK 1’s Aula (8th Floor). Gates will be opened from 08.30.
       </p>
       <h1 className="is-size-3 has-text-centered mt-5 mb-2">
-        <b>What device should I use?</b>
+        <b>Do I have to buy tickets?</b>
       </h1>
       <p>
-        We recommend using a laptop or PC with a webcam and mic to get the full and better experience in general. But, you can use your mobile phone as well.
+      Yes, you need the tickets as your identification to enter the venue.
       </p>
-      <h1 className="is-size-3 has-text-centered mt-5 mb-2">
-        <b>How do I use Webinar Zoom?</b>
-      </h1>
-      <p >We will send you an email attached with a link for your registration before the event started. After being approved, you are eligible to enjoy the event without no worries.</p>
-    
       <h1 className="is-size-3 has-text-centered mt-5 mb-2">
         <b>How do I keep myself updated?</b>
       </h1>
