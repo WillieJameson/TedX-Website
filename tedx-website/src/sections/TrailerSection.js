@@ -2,7 +2,6 @@ import React from "react";
 import YouTube from "react-youtube";
 import { Element } from "react-scroll";
 
-
 function TrailerSection() {
   const opts = {
     height: "480",
@@ -44,11 +43,14 @@ function TrailerSection() {
               {/* <Video width="320" height="240" controls>
                   <source src={Trailer}>
                 </Video> */}
-                <div className="flex justify-center mt-6">
-                <iframe src="https://drive.google.com/file/d/16Cey4zjVD4woLKP2u1xJ_TVXKoYyQntT/preview" width="640" height="480" allow="autoplay"></iframe>
-                
-                </div>
-                
+              <div className="flex justify-center mt-6">
+                <iframe
+                  src="https://drive.google.com/file/d/1TNyNJ2DR92ySgiFVPHtLQaae-ZZmYXvT/preview"
+                  width="720"
+                  height="540"
+                  allow="autoplay"
+                ></iframe>
+              </div>
             </div>
           </div>
         </div>
