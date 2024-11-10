@@ -49,7 +49,8 @@ function Home() {
       <HeroSection />
       {hideMenu&&      <NavbarMenu/>}
       <ThemeSection />
-      <TrailerSection />
+      {/* <TrailerSection /> */}
+      <div className='h-[80px] lg:h-[534px]'></div>
       <BannerSection />
       <AboutSection />
       <SpeakerSection />

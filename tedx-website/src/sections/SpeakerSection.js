@@ -35,6 +35,7 @@ export default function SpeakerSection() {
           data-aos-mirror="true"
           data-aos-once="true"
           data-aos-anchor-placement="top-center">
+
       <div className="text-center">
         <h1 className="section-title has-text-centered is-size-1-mobile">
           <b>SPEAKERS</b>
@@ -44,16 +45,17 @@ export default function SpeakerSection() {
             <img className="" src={valencia}/>
             <img className="" src={natasha}/>
             <img className="" src={filda}/>
-            <img className="scale-[1.1] lg:scale-[1.07] lg:-translate-y-5" src={kezia}/>
+            <img className="" src={kezia}/>
           </div>
-          <div className="mx-10 mx-auto text-center grid lg:grid-cols-3 grid-cols-2">
+          <div className="grid mx-auto text-center place-items-center lg:grid-cols-3 grid-cols-2">
             <img className="" src={chefbry}/>
-            <img className="-translate-y-5 lg:-translate-y-8" src={bryant}/>
-            <img className="mx-auto w-[50%] lg:w-[90%] lg:col-span-1 col-span-2 lg:translate-y-4" src={oscar}/>
+            <img className="" src={bryant}/>
+            <img className="lg:col-span-1 col-span-2 w-1/2 lg:w-auto" src={oscar}/>
           </div>
         </div>
       </div>
       {/* <div className="">
+>>>>>>> Stashed changes
         <div>
           <h1 className="section-title has-text-centered is-size-1-mobile">
             <b>SPEAKERS</b>
