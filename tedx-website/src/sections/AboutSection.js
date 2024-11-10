@@ -4,7 +4,7 @@ import {Element} from "react-scroll";
 
 export default function FifthSection() {
   return (
-    <Element name="about" className=" is-medium mx-16 xl:my-40">
+    <Element name="about" className="is-medium mx-16 my-8 lg:my-20">
       <div className=" is-widescreen">
         <div className="columns  is-centered-mobile is-vcentered">
           <div className="column is-7 is-10-mobile is-offset-1-mobile"
