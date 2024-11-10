@@ -12,6 +12,14 @@ import nicholas from "../images/2023/nicholas.webp";
 import ibnu from "../images/2023/ibnu.webp";
 import daphne from "../images/2023/daphne.webp";
 
+import valencia from '../images/2024/speakers/valencia.png'
+import natasha from '../images/2024/speakers/natasha.png'
+import filda from '../images/2024/speakers/filda.png'
+import kezia from '../images/2024/speakers/kezia.png'
+import chefbry from '../images/2024/speakers/chefbry.png'
+import bryant from '../images/2024/speakers/bryant.png'
+import oscar from '../images/2024/speakers/oscar.png'
+
 
 
 
@@ -27,7 +35,25 @@ export default function SpeakerSection() {
           data-aos-mirror="true"
           data-aos-once="true"
           data-aos-anchor-placement="top-center">
-      <div className="">
+      <div className="text-center">
+        <h1 className="section-title has-text-centered is-size-1-mobile">
+          <b>SPEAKERS</b>
+        </h1>
+        <div className="grid text-center lg:grid-rows-2">
+          <div className="grid mx-auto text-center lg:grid-cols-4 grid-cols-2">
+            <img className="" src={valencia}/>
+            <img className="" src={natasha}/>
+            <img className="" src={filda}/>
+            <img className="scale-[1.1] lg:scale-[1.07] lg:-translate-y-5" src={kezia}/>
+          </div>
+          <div className="mx-10 mx-auto text-center grid lg:grid-cols-3 grid-cols-2">
+            <img className="" src={chefbry}/>
+            <img className="-translate-y-5 lg:-translate-y-8" src={bryant}/>
+            <img className="mx-auto w-[50%] lg:w-[90%] lg:col-span-1 col-span-2 lg:translate-y-4" src={oscar}/>
+          </div>
+        </div>
+      </div>
+      {/* <div className="">
         <div>
           <h1 className="section-title has-text-centered is-size-1-mobile">
             <b>SPEAKERS</b>
@@ -275,7 +301,7 @@ export default function SpeakerSection() {
             }
           /></SplideSlide>
          </Splide> 
-      </div>
+      </div> */}
     </Element>
   );
 }

@@ -5,7 +5,7 @@ import Clock from "../Components/Clock";
 class App extends Component {
   constructor(props) {
     super(props);
-    this.state = { deadline: "November, 18, 2023" };
+    this.state = { deadline: "November, 16, 2024" };
   }
   render() {
     return (
@@ -13,7 +13,7 @@ class App extends Component {
         <div className="lg:w-3/4 h-full pt-7 pl-7 pr-7 pb-7 mx-auto">
           <div className="p-5 mx-auto my-auto">
             <h1 className="text-center font-bold lg:text-2xl text-xl mb-10">
-            November 18th, 2023
+            November 16th, 2024
             </h1>
             <Clock deadline={this.state.deadline} className="mt-10" />
           </div>

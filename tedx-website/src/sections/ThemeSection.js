@@ -2,18 +2,26 @@ import React from "react";
 import EventLogo from "../images/event2.png";
 import { Element } from "react-scroll";
 import NavbarMenu from "../Components/NavbarMenu";
-import SpaceTime from "../images/2023/LogoSpaceTime.png";
+import MainframeSiege from "../images/2024/logo.png";
+import Circle from "../images/2024/circle.png"
+import Wave from "../images/2024/wave.png"
+import BgDecor from "../images/2024/bg-ish.png"
 
 function ThemeSection() {
   return (
     <Element name="theme" className="section is-medium">
-      <div className="container is-widescreen lg:pt-44 pt-36">
-        <div className="absolute opacity-30 mx-auto right-0 left-0 text-center transform lg:scale-150 scale-100 ">
-          <img src={SpaceTime} className="-z-10 mx-auto" alt="infinite"></img>
+      <div className="container is-widescreen lg:pt-36 pt-36 pb-24">
+        <div className="absolute mx-auto right-0 left-0 top-0 text-center transform scale-100 ">
+          <img src={Circle} className="absolute right-0 -z-10 scale-24 lg:scale-80" alt="infinite"/>
+          <img src={Wave} className="absolute left-0 bottom-[200px] scale-24" alt="infinite"/>
+          <img src={BgDecor} className="absolute -z-10" alt="infinite"/>
+          <img src={MainframeSiege} className="opacity-30 -z-10 mx-auto" alt="infinite"/>
+          
+
         </div>
         <div className="columns is-centered is-vcentered pb-7 -mt-20 lg:-mt-0">
           <h1
-            className="text-5xl lg:text-8xl mx-auto lg:mx-0 text-red-600 font-bold pt-32 font-archivo text-center"
+            className="text-5xl lg:text-8xl mx-auto lg:mx-0 text-red-600 font-bold pt-48 font-archivo text-center"
             data-aos="fade-right"
             data-aos-offset="100"
             data-aos-delay="0"
@@ -22,7 +30,7 @@ function ThemeSection() {
             data-aos-once="true"
             data-aos-anchor-placement="top-center"
           >
-            Space and Time Color
+            Mainframe under Siege
           </h1>
         </div>
         <div className="columns is-vcentered z-10">

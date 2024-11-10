@@ -43,38 +43,32 @@ function ScheduleSection() {
                         <div className="timeline-item">
                             <div className="timeline-marker"></div>
                             <div className="timeline-content">
-                                <p className="heading">09.00 - 09.02</p>
+                                <p className="heading">09.00 - 09.08</p>
                                 <p className="has-text-weight-bold">Opening</p>
                             </div>
                         </div>
                         <div className="timeline-item">
                             <div className="timeline-marker"></div>
                             <div className="timeline-content">
-                                <p className="heading">09.05 - 09.10</p>
+                                <p className="heading">09.08 - 09.13</p>
                                 <p className="has-text-weight-bold">Sambutan</p>
                             </div>
                         </div>
                         <div className="timeline-item">
                             <div className="timeline-marker"></div>
                             <div className="timeline-content">
-                                <p className="heading">09.11 - 09.16</p>
-                                <p className="has-text-weight-bold">F1RST PERFORMANCE</p>
+                                <p className="heading">09.14 - 09.32</p>
+                                <p className="has-text-weight-bold">BRYANT KANDANI</p>
                             </div>
                         </div>
                         <div className="timeline-item">
                             <div className="timeline-marker"></div>
                             <div className="timeline-content">
-                                <p className="heading">09.17 - 09.32</p>
-                                <p className="has-text-weight-bold">SHAN SEBASTIAN</p>
+                                <p className="heading">09.33 - 09.43</p>
+                                <p className="has-text-weight-bold">VALENCIA GABRIELLA</p>
                             </div>
                         </div>
-                        <div className="timeline-item">
-                            <div className="timeline-marker"></div>
-                            <div className="timeline-content">
-                                <p className="heading">09.33 - 09.48</p>
-                                <p className="has-text-weight-bold">IBNU NADZIR</p>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
                 <div className="column"
@@ -89,38 +83,39 @@ function ScheduleSection() {
                         <div className="timeline-item">
                             <div className="timeline-marker"></div>
                             <div className="timeline-content">
-                                <p className="heading">09.48 - 09.53</p>
-                                <p className="has-text-weight-bold">SMUKIEZ CHOIR PERFORMANCE</p>
+                                <p className="heading">09.44 - 09.55</p>
+                                <p className="has-text-weight-bold">NATASHA AURELIA</p>
                             </div>
                         </div>
                         <div className="timeline-item">
                             <div className="timeline-marker"></div>
                             <div className="timeline-content">
-                                <p className="heading">09.55 - 10.10</p>
-                                <p className="has-text-weight-bold">TOILET BREAK</p>
+                                <p className="heading">09.56 - 10.14</p>
+                                <p className="has-text-weight-bold">BRYAN FERRYSIENANDA</p>
                             </div>
                         </div>
                         <div className="timeline-item">
                             <div className="timeline-marker"></div>
                             <div className="timeline-content">
-                                <p className="heading">10.11 - 10.14</p>
+                                <p className="heading">09.15 - 10.20</p>
                                 <p className="has-text-weight-bold">SERENITY PERFORMANCE</p>
                             </div>
                         </div>
                         <div className="timeline-item">
                             <div className="timeline-marker"></div>
                             <div className="timeline-content">
-                                <p className="heading">10.15 - 10.33</p>
-                                <p className="has-text-weight-bold">NICHOLAS GLENN</p>
+                                <p className="heading">10.21 - 10.51</p>
+                                <p className="has-text-weight-bold">TOILET BREAK</p>
                             </div>
                         </div>
                         <div className="timeline-item">
                             <div className="timeline-marker"></div>
                             <div className="timeline-content">
-                                <p className="heading">10.34 - 10.48</p>
-                                <p className="has-text-weight-bold">VIVIAN FREDERICA LIAWINSON</p>
+                                <p className="heading">10.52 - 11.04</p>
+                                <p className="has-text-weight-bold">KEZIA NANIA MANIK</p>
                             </div>
                         </div>
+                        
                     </div>
                 </div>
                 <div className="column"
@@ -135,25 +130,33 @@ function ScheduleSection() {
                         <div className="timeline-item">
                             <div className="timeline-marker"></div>
                             <div className="timeline-content">
-                                <p className="heading">10.49 - 11.01</p>
-                                <p className="has-text-weight-bold">MARIA RANIA KUSUMADINATA</p>
+                                <p className="heading">11.05 - 11.23</p>
+                                <p className="has-text-weight-bold">OSCAR DARMAWAN</p>
                             </div>
                         </div>
                         <div className="timeline-item">
                             <div className="timeline-marker"></div>
                             <div className="timeline-content">
-                                <p className="heading">11.01-11.16</p>
-                                <p className="has-text-weight-bold">Ice Breaker</p>
+                                <p className="heading">11.24 - 11.39</p>
+                                <p className="has-text-weight-bold">FILDA SALIM</p>
                             </div>
                         </div>
                         <div className="timeline-item">
                             <div className="timeline-marker"></div>
                             <div className="timeline-content">
-                                <p className="heading">11.16-11.31</p>
-                                <p className="has-text-weight-bold">DAPHNE ANGELENE OPHELIA</p>
+                                <p className="heading">11.40-11.50</p>
+                                <p className="has-text-weight-bold">CRESSENDO PERFORMANCE</p>
                             </div>
                         </div>
                         <div className="timeline-item">
+                            <div className="timeline-marker"></div>
+                            <div className="timeline-content">
+                                <p className="heading">11.50-12.00</p>
+                                <p className="has-text-weight-bold">CLOSING</p>
+                            </div>
+                        </div>
+                        
+                        {/* <div className="timeline-item">
                             <div className="timeline-marker"></div>
                             <div className="timeline-content">
                                 <p className="heading">11.32-11.47</p>
@@ -173,7 +176,7 @@ function ScheduleSection() {
                                 <p className="heading">11.58 - 12.00</p>
                                 <p className="has-text-weight-bold">Closing</p>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 {/* <div className="column"
